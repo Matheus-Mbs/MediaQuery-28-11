@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.img-principal{
+    width: 100%;
+}
+
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    margin: 20px;
+}
+
+.paragrafo-conteudo{
+    margin: 20px;
+}
+
+.btn-saiba{
+    width: 100px;
+    align-self: center;
+    padding: 10px;
+    margin: 20px
+}
+
+@media (min-width: 768px){
+    .img-principal{
+        width: 400px;
+        border-radius: 20px;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+    }
+}
